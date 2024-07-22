@@ -1,6 +1,6 @@
 import type { ActionFunctionArgs } from "@remix-run/node";
 import { redirect } from "@remix-run/node";
-import { deleteUser } from "../../api.server";
+import { deleteUser } from "../data/dummyjson";
 
 export const deleteAction = async ({ params }: ActionFunctionArgs) => {
   if (!params.userId) {

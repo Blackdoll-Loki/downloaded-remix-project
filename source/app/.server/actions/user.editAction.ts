@@ -1,4 +1,4 @@
-import { updateUser } from "../../api.server";
+import { DummyUser, updateUser } from "../data/dummyjson";
 import { redirect } from "@remix-run/react";
 import type { ActionFunctionArgs, } from "@remix-run/node";
 
